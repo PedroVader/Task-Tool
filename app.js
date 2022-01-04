@@ -31,7 +31,7 @@ addBtn.addEventListener('click', (e) => {
 function addDeleteBtn() {
     const deleteBtn = document.createElement("button");
 
-    deleteBtn.textContent = "Eliminar ítem";
+    deleteBtn.textContent = "Remove item";
     deleteBtn.className = "btn-delete";
     
     deleteBtn.className = "btn btn-outline-warning";
