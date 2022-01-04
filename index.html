@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+</head>
+<body style="margin-top: 50px;" class="text-center container" wfd-invisible="true">
+    <main>
+        <h1 class="display-5 fw-bold" style="margin-bottom: 10px;">To do list ⚡</h1>
+        <p class="lead">Enter your daily task to be better organized!</p>
+    <div class="search"> 
+        <form> 
+        <input class="form-control w-50 text-center mx-auto" style="margin-bottom: 15px;" type="text" placeholder="Write your next task...">
+        <button class="btn-add btn btn-outline-warning"><b>Add Task</b></button>
+        </form>
+    </div>
+    </main>
+    <div class="li-container">
+        <ul class="list-group">
+        </ul>
+    </div>
+    <div style="margin-top: 10px; display: none;" class="empty">
+        <p class="lead my-3">You have no tasks to do... 🧠</p>
+    </div>
+    <script src="app.js"></script>    
+</html>
